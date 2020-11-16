@@ -8,7 +8,7 @@ all:
 push:
 	docker login
 	docker push $(IMAGE)
-push:
+pull:
 	docker login
 	docker push $(IMAGE)
 run:
