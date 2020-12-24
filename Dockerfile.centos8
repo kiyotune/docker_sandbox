@@ -3,7 +3,7 @@ FROM centos:centos8
 
 # install package
 RUN yum update -y 
-RUN yum install -y epel-release passwd httpd git python2 httpd which 
+RUN yum install -y epel-release passwd httpd git python2 httpd which make sqlite tree unzip
 RUN pip2 install django==1.11.29
 
 # settings
